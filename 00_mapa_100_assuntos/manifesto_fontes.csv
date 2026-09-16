@@ -1,11 +1,101 @@
 ranking,disciplina,assunto,tipo_material,fonte,url_original,arquivo_local,status
-1,Portugues,Compreensao e Interpretacao de Textos,,,,,pendente
-2,Seguranca da Informacao,ISO IEC 27001,,,,,pendente
-3,Banco de Dados,Normalizacao de Dados,,,,,pendente
-4,Legislacao SUS,Constituicao Federal Saude arts 196-200,,,,,pendente
-5,Legislacao EBSERH,Lei 12550 2011,,,,,pendente
-6,Banco de Dados,Linguagem SQL,,,,,pendente
-7,Redes,Modelo TCP IP,,,,,pendente
-8,Sistemas de Saude,Prontuario Eletronico do Paciente,,,,,pendente
-9,Portugues,Coesao e Coerencia Textual,,,,,pendente
-10,Governanca de TI,ITIL 4 Fundamentos,,,,,pendente
+1,Portugues,Compreensao e Interpretacao de Textos,guia_rag,,,12_lingua_portuguesa/001_interpretacao_textos_guia_rag.md,resumo_proprio
+2,Seguranca da Informacao,ISO IEC 27001,guia_rag,,,05_seguranca_informacao/002_iso_27001_guia_rag.md,resumo_proprio
+3,Banco de Dados,Normalizacao de Dados,guia_rag,,,04_banco_de_dados/003_normalizacao_guia_rag.md,resumo_proprio
+4,Legislacao SUS,Constituicao Federal Saude arts 196-200,guia_rag,,,02_legislacao_sus/004_constituicao_saude_guia_rag.md,resumo_proprio
+5,Legislacao EBSERH,Lei 12550 2011,guia_rag,,,01_legislacao_ebserh/005_lei_12550_guia_rag.md,resumo_proprio
+6,Banco de Dados,Linguagem SQL,guia_rag,,,04_banco_de_dados/006_sql_guia_rag.md,resumo_proprio
+7,Redes,Modelo TCP IP,guia_rag,,,06_redes_infraestrutura/007_tcp_ip_guia_rag.md,resumo_proprio
+8,Sistemas de Saude,Prontuario Eletronico do Paciente,guia_rag,,,11_sistemas_informacao_saude/008_pep_guia_rag.md,resumo_proprio
+9,Portugues,Coesao e Coerencia Textual,guia_rag,,,12_lingua_portuguesa/009_coesao_coerencia_guia_rag.md,resumo_proprio
+10,Governanca de TI,ITIL 4 Fundamentos,guia_rag,,,08_governanca_gestao_ti/010_itil4_guia_rag.md,resumo_proprio
+11,TI Publica,LGPD Lei 13709 2018,guia_rag,,,03_lgpd_lai_ti_publica/011_lgpd_guia_rag.md,resumo_proprio
+12,Banco de Dados,Modelagem Multidimensional,guia_rag,,,04_banco_de_dados/012_modelagem_multidimensional_guia_rag.md,resumo_proprio
+13,Arquitetura e Integracao,BPMN 2.0,guia_rag,,,10_arquitetura_integracao/013_bpmn_guia_rag.md,resumo_proprio
+14,Sistemas de Saude,Conjunto Minimo de Dados CMD,guia_rag,,,11_sistemas_informacao_saude/014_cmd_guia_rag.md,resumo_proprio
+15,Engenharia de Software,Elicitacao de Requisitos,guia_rag,,,07_engenharia_software/015_elicitacao_requisitos_guia_rag.md,resumo_proprio
+16,Seguranca da Informacao,Malware e Ameacas,guia_rag,,,05_seguranca_informacao/016_malware_ameacas_guia_rag.md,resumo_proprio
+17,Banco de Dados,Data Warehouse e Data Mining,guia_rag,,,04_banco_de_dados/017_data_warehouse_data_mining_guia_rag.md,resumo_proprio
+18,Engenharia de Software,Prototipacao de Software,guia_rag,,,07_engenharia_software/018_prototipacao_guia_rag.md,resumo_proprio
+19,Legislacao EBSERH,Resolucao CGPAR 11 2016,guia_rag,,,01_legislacao_ebserh/019_resolucao_cgpar_11_2016_guia_rag.md,resumo_proprio
+20,Engenharia de Software,CMMI DEV v2.0,guia_rag,,,07_engenharia_software/020_cmmi_dev_guia_rag.md,resumo_proprio
+21,Banco de Dados,Big Data 4 Vs,guia_rag,,,04_banco_de_dados/021_big_data_guia_rag.md,resumo_proprio
+22,Portugues,Sintaxe do Periodo,guia_rag,,,12_lingua_portuguesa/022_sintaxe_periodo_guia_rag.md,resumo_proprio
+23,Legislacao EBSERH,Estatuto Social EBSERH,guia_rag,,,01_legislacao_ebserh/023_estatuto_social_guia_rag.md,resumo_proprio
+24,Legislacao SUS,Lei 8080 1990,guia_rag,,,02_legislacao_sus/024_lei_8080_guia_rag.md,resumo_proprio
+25,Sistemas de Saude,Interoperabilidade em Saude,guia_rag,,,11_sistemas_informacao_saude/025_interoperabilidade_saude_guia_rag.md,resumo_proprio
+26,Governanca de TI,ITIL v3,guia_rag,,,08_governanca_gestao_ti/026_itil_v3_guia_rag.md,resumo_proprio
+27,Gerencia de Projetos,Processos PMBOK,guia_rag,,,09_gerencia_projetos/027_processos_pmbok_guia_rag.md,resumo_proprio
+28,Seguranca da Informacao,Protecao de Redes Firewall WAF IDS IPS,guia_rag,,,05_seguranca_informacao/028_protecao_redes_guia_rag.md,resumo_proprio
+29,Governanca de TI,COBIT 5,guia_rag,,,08_governanca_gestao_ti/029_cobit5_guia_rag.md,resumo_proprio
+30,Seguranca da Informacao,Criptografia e Protocolos,guia_rag,,,05_seguranca_informacao/030_criptografia_guia_rag.md,resumo_proprio
+31,Governanca de TI,Scrum,guia_rag,,,08_governanca_gestao_ti/031_scrum_guia_rag.md,resumo_proprio
+32,Portugues,Pontuacao,guia_rag,,,12_lingua_portuguesa/032_pontuacao_guia_rag.md,resumo_proprio
+33,Arquitetura e Integracao,SOA,guia_rag,,,10_arquitetura_integracao/033_soa_guia_rag.md,resumo_proprio
+34,Portugues,Concordancia Verbal e Nominal,guia_rag,,,12_lingua_portuguesa/034_concordancia_guia_rag.md,resumo_proprio
+35,TI Publica,Contratacoes de TIC IN SGD MGI 94 2022,guia_rag,,,03_lgpd_lai_ti_publica/035_contratacoes_ti_in_94_guia_rag.md,resumo_proprio
+36,Legislacao EBSERH,Regimento Interno EBSERH,guia_rag,,,01_legislacao_ebserh/036_regimento_interno_guia_rag.md,resumo_proprio
+37,Seguranca da Informacao,Certificacao Digital ICP Brasil,guia_rag,,,05_seguranca_informacao/037_icp_brasil_guia_rag.md,resumo_proprio
+38,Legislacao SUS,Decreto 7508 2011,guia_rag,,,02_legislacao_sus/038_decreto_7508_guia_rag.md,resumo_proprio
+39,Gerencia de Projetos,Escopo e Cronograma EAP CPM,guia_rag,,,09_gerencia_projetos/039_escopo_cronograma_guia_rag.md,resumo_proprio
+40,TI Publica,LAI Lei 12527 2011,guia_rag,,,03_lgpd_lai_ti_publica/040_lai_guia_rag.md,resumo_proprio
+41,Redes,Protocolos de Redes,guia_rag,,,06_redes_infraestrutura/041_protocolos_redes_guia_rag.md,resumo_proprio
+42,Portugues,Crase,guia_rag,,,12_lingua_portuguesa/042_crase_guia_rag.md,resumo_proprio
+43,Sistemas de Saude,Sistemas de Informacao do SUS,guia_rag,,,11_sistemas_informacao_saude/043_sistemas_sus_guia_rag.md,resumo_proprio
+44,Arquitetura e Integracao,REST RESTful,guia_rag,,,10_arquitetura_integracao/044_rest_restful_guia_rag.md,resumo_proprio
+45,Legislacao EBSERH,Codigo de Etica e Conduta EBSERH,guia_rag,,,01_legislacao_ebserh/045_codigo_etica_conduta_guia_rag.md,resumo_proprio
+46,Engenharia de Software,Programacao Orientada a Objetos,guia_rag,,,07_engenharia_software/046_poo_guia_rag.md,resumo_proprio
+47,Gerencia de Projetos,EVM Valor Agregado,guia_rag,,,09_gerencia_projetos/047_evm_valor_agregado_guia_rag.md,resumo_proprio
+48,Engenharia de Software,Analise de Pontos de Funcao,guia_rag,,,07_engenharia_software/048_analise_pontos_funcao_guia_rag.md,resumo_proprio
+49,Governanca de TI,CRM,guia_rag,,,08_governanca_gestao_ti/049_crm_guia_rag.md,resumo_proprio
+50,Legislacao SUS,Lei 8142 1990,guia_rag,,,02_legislacao_sus/050_lei_8142_guia_rag.md,resumo_proprio
+51,Banco de Dados,Modelo Entidade Relacionamento,guia_rag,,,04_banco_de_dados/051_mer_guia_rag.md,resumo_proprio
+52,Arquitetura e Integracao,Cliente Servidor e Tres Camadas,guia_rag,,,10_arquitetura_integracao/052_cliente_servidor_tres_camadas_guia_rag.md,resumo_proprio
+53,Governanca de TI,Balanced Scorecard,guia_rag,,,08_governanca_gestao_ti/053_bsc_guia_rag.md,resumo_proprio
+54,Engenharia de Software,Design Patterns GoF,guia_rag,,,07_engenharia_software/054_design_patterns_guia_rag.md,resumo_proprio
+55,Legislacao EBSERH,Lei 13303 2016 Estatuto das Estatais,guia_rag,,,01_legislacao_ebserh/055_lei_13303_estatais_guia_rag.md,resumo_proprio
+56,Seguranca da Informacao,ISO IEC 27002,guia_rag,,,05_seguranca_informacao/056_iso_27002_guia_rag.md,resumo_proprio
+57,Portugues,Regencia Verbal e Nominal,guia_rag,,,12_lingua_portuguesa/057_regencia_guia_rag.md,resumo_proprio
+58,Seguranca da Informacao,Gestao de Riscos de TI,guia_rag,,,05_seguranca_informacao/058_gestao_riscos_ti_guia_rag.md,resumo_proprio
+59,Engenharia de Software,Java,guia_rag,,,07_engenharia_software/059_java_guia_rag.md,resumo_proprio
+60,Sistemas de Saude,TISS TUSS,guia_rag,,,11_sistemas_informacao_saude/060_tiss_tuss_guia_rag.md,resumo_proprio
+61,Legislacao EBSERH,Regulamento de Pessoal EBSERH,guia_rag,,,01_legislacao_ebserh/061_regulamento_pessoal_guia_rag.md,resumo_proprio
+62,Engenharia de Software,Ciclo de Vida de Software,guia_rag,,,07_engenharia_software/062_ciclo_vida_software_guia_rag.md,resumo_proprio
+63,TI Publica,PETI PDTIC,guia_rag,,,03_lgpd_lai_ti_publica/063_peti_pdtic_guia_rag.md,resumo_proprio
+64,Legislacao SUS,Resolucao CNS 453 2012,guia_rag,,,02_legislacao_sus/064_resolucao_cns_453_guia_rag.md,resumo_proprio
+65,Redes,Virtualizacao e Docker,guia_rag,,,06_redes_infraestrutura/065_virtualizacao_docker_guia_rag.md,resumo_proprio
+66,Redes,Servidores Web,guia_rag,,,06_redes_infraestrutura/066_servidores_web_guia_rag.md,resumo_proprio
+67,Gerencia de Projetos,Gerenciamento de Riscos em Projetos,guia_rag,,,09_gerencia_projetos/067_riscos_projetos_guia_rag.md,resumo_proprio
+68,Engenharia de Software,MPS BR,guia_rag,,,07_engenharia_software/068_mps_br_guia_rag.md,resumo_proprio
+69,Banco de Dados,SGBD ACID Concorrencia,guia_rag,,,04_banco_de_dados/069_sgbd_acid_guia_rag.md,resumo_proprio
+70,Engenharia de Software,DevOps Git Jenkins CI CD,guia_rag,,,07_engenharia_software/070_devops_git_cicd_guia_rag.md,resumo_proprio
+71,Engenharia de Software,Java Enterprise,guia_rag,,,07_engenharia_software/071_java_enterprise_guia_rag.md,resumo_proprio
+72,Engenharia de Software,PHP,guia_rag,,,07_engenharia_software/072_php_guia_rag.md,resumo_proprio
+73,Engenharia de Software,Microservices,guia_rag,,,07_engenharia_software/073_microservices_guia_rag.md,resumo_proprio
+74,Portugues,Significacao das Palavras,guia_rag,,,12_lingua_portuguesa/074_significacao_palavras_guia_rag.md,resumo_proprio
+75,Governanca de TI,BPM As Is To Be,guia_rag,,,08_governanca_gestao_ti/075_bpm_as_is_to_be_guia_rag.md,resumo_proprio
+76,Banco de Dados,NoSQL CAP,guia_rag,,,04_banco_de_dados/076_nosql_cap_guia_rag.md,resumo_proprio
+77,Legislacao EBSERH,Controle Disciplinar EBSERH,guia_rag,,,01_legislacao_ebserh/077_controle_disciplinar_guia_rag.md,resumo_proprio
+78,Redes,Linux Debian,guia_rag,,,06_redes_infraestrutura/078_linux_debian_guia_rag.md,resumo_proprio
+79,Gerencia de Projetos,Gerenciamento de Aquisicoes,guia_rag,,,09_gerencia_projetos/079_aquisicoes_guia_rag.md,resumo_proprio
+80,TI Publica,e-PING,guia_rag,,,03_lgpd_lai_ti_publica/080_eping_guia_rag.md,resumo_proprio
+81,Legislacao SUS,RDC 36 2013 Seguranca do Paciente,guia_rag,,,02_legislacao_sus/081_rdc_36_seguranca_paciente_guia_rag.md,resumo_proprio
+82,Redes,Windows Server AD GPO,guia_rag,,,06_redes_infraestrutura/082_windows_server_ad_gpo_guia_rag.md,resumo_proprio
+83,Engenharia de Software,Testes de Software JUnit,guia_rag,,,07_engenharia_software/083_testes_software_junit_guia_rag.md,resumo_proprio
+84,Redes,Cloud Computing,guia_rag,,,06_redes_infraestrutura/084_cloud_computing_guia_rag.md,resumo_proprio
+85,Governanca de TI,Plano de Negocio em TI,guia_rag,,,08_governanca_gestao_ti/085_plano_negocio_ti_guia_rag.md,resumo_proprio
+86,Engenharia de Software,Gerenciamento de Requisitos e Rastreabilidade,guia_rag,,,07_engenharia_software/086_gerenciamento_requisitos_guia_rag.md,resumo_proprio
+87,Sistemas de Saude,Telemedicina,guia_rag,,,11_sistemas_informacao_saude/087_telemedicina_guia_rag.md,resumo_proprio
+88,Engenharia de Software,MVC,guia_rag,,,07_engenharia_software/088_mvc_guia_rag.md,resumo_proprio
+89,Banco de Dados,BI OLAP,guia_rag,,,04_banco_de_dados/089_bi_olap_guia_rag.md,resumo_proprio
+90,Legislacao SUS,PNHOSP,guia_rag,,,02_legislacao_sus/090_pnhosp_guia_rag.md,resumo_proprio
+91,Redes,SAN NAS FC iSCSI,guia_rag,,,06_redes_infraestrutura/091_san_nas_guia_rag.md,resumo_proprio
+92,TI Publica,PPA e TI,guia_rag,,,03_lgpd_lai_ti_publica/092_ppa_ti_guia_rag.md,resumo_proprio
+93,Seguranca da Informacao,PCN DRP RTO RPO,guia_rag,,,05_seguranca_informacao/093_continuidade_drp_rto_rpo_guia_rag.md,resumo_proprio
+94,Engenharia de Software,COCOMO e Metricas,guia_rag,,,07_engenharia_software/094_cocomo_metricas_guia_rag.md,resumo_proprio
+95,Governanca de TI,Marketing de Servicos em TI,guia_rag,,,08_governanca_gestao_ti/095_marketing_servicos_ti_guia_rag.md,resumo_proprio
+96,Redes,Sistemas Distribuidos e Clusterizacao,guia_rag,,,06_redes_infraestrutura/096_sistemas_distribuidos_cluster_guia_rag.md,resumo_proprio
+97,Gerencia de Projetos,Qualidade do Projeto Pareto Ishikawa RACI,guia_rag,,,09_gerencia_projetos/097_qualidade_projeto_ferramentas_guia_rag.md,resumo_proprio
+98,Redes,LAN VLAN STP,guia_rag,,,06_redes_infraestrutura/098_lan_vlan_stp_guia_rag.md,resumo_proprio
+99,Banco de Dados,MOLAP ROLAP HOLAP,guia_rag,,,04_banco_de_dados/099_molap_rolap_holap_guia_rag.md,resumo_proprio
+100,Engenharia de Software,CMS Liferay Drupal WordPress,guia_rag,,,07_engenharia_software/100_cms_guia_rag.md,resumo_proprio

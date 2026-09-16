@@ -1,0 +1,66 @@
+{
+  "schema_version": "1.0",
+  "projeto": "EBSERH TI - Base de Conhecimento",
+  "total_assuntos": 100,
+  "fonte_indice": "00_mapa_100_assuntos/manifesto_fontes.csv",
+  "processamento": {
+    "pipeline": ["github", "n8n", "rag", "ia", "validacao", "supabase"],
+    "status_padrao": "resumo_proprio",
+    "tipo_material_padrao": "guia_rag",
+    "gerar_questoes": true,
+    "quantidade_questoes_padrao": 5,
+    "banca_padrao": "FGV",
+    "evitar_duplicidade": true
+  },
+  "campos": {
+    "id": "ranking do assunto de 1 a 100",
+    "disciplina": "categoria principal",
+    "assunto": "nome do assunto",
+    "arquivo": "caminho do guia RAG no repositorio",
+    "status": "estado do material",
+    "prioridade": "prioridade para processamento",
+    "tags": "termos auxiliares para recuperacao",
+    "cross_refs": "IDs de assuntos relacionados"
+  },
+  "disciplinas": [
+    "Legislacao EBSERH",
+    "Legislacao SUS",
+    "TI Publica",
+    "Banco de Dados",
+    "Seguranca da Informacao",
+    "Redes",
+    "Engenharia de Software",
+    "Governanca de TI",
+    "Gerencia de Projetos",
+    "Arquitetura e Integracao",
+    "Sistemas de Saude",
+    "Portugues"
+  ],
+  "regras_n8n": {
+    "1": "Ler manifesto_fontes.csv para obter os 100 registros.",
+    "2": "Processar somente registros cujo arquivo_local esteja preenchido.",
+    "3": "Buscar o conteudo do arquivo_local no GitHub.",
+    "4": "Preservar disciplina, assunto e ranking como metadata durante chunking e embeddings.",
+    "5": "Gerar questoes somente a partir do contexto recuperado pelo RAG.",
+    "6": "Quando a fonte nao sustentar a resposta, nao completar silenciosamente com conhecimento externo.",
+    "7": "Validar estrutura, alternativas, gabarito e explicacao antes da persistencia.",
+    "8": "Verificar duplicidade antes de inserir em questoes_estudo.",
+    "9": "Salvar origem do arquivo, modelo de IA, banca e timestamps para auditoria.",
+    "10": "Materiais normativos devem registrar versao/data quando essa informacao estiver disponivel."
+  },
+  "saida_questao": {
+    "campos_obrigatorios": [
+      "disciplina",
+      "assunto",
+      "subassunto",
+      "banca",
+      "enunciado",
+      "alternativas",
+      "gabarito",
+      "explicacao",
+      "arquivo_origem"
+    ],
+    "alternativas": ["A", "B", "C", "D", "E"]
+  },
+  "observacao": "O detalhamento dos 100 assuntos e seus caminhos esta no manifesto_fontes.csv. Este JSON funciona como configuracao central do workflow n8n e evita duplicar manualmente a lista de 100 registros em dois formatos."
+}

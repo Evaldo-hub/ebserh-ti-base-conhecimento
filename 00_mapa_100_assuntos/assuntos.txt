@@ -1,0 +1,103 @@
+MAPA DOS 100 ASSUNTOS — EBSERH TI
+Fonte-base: previsao_100_assuntos_ebserh_ti.pdf
+
+001 | Compreensão e Interpretação de Textos
+002 | ISO/IEC 27001
+003 | Normalização de Dados (1FN, 2FN, 3FN, BCNF/FNBC)
+004 | Constituição Federal de 1988 — Saúde, arts. 196 a 200
+005 | Lei 12.550/2011 — EBSERH
+006 | Linguagem SQL
+007 | Modelo TCP/IP
+008 | Prontuário Eletrônico do Paciente (PEP)
+009 | Coesão e Coerência Textual
+010 | ITIL 4 — Fundamentos
+011 | LGPD — Lei 13.709/2018
+012 | Modelagem Multidimensional — Star/Snowflake
+013 | BPMN 2.0
+014 | Conjunto Mínimo de Dados da Atenção à Saúde (CMD)
+015 | Elicitação de Requisitos
+016 | Vulnerabilidades e Ameaças — trojans, vírus, worms, bots e botnets
+017 | Data Warehouse e Data Mining
+018 | Prototipação de Software
+019 | Resolução CGPAR 11/2016 e alterações
+020 | CMMI-DEV v2.0
+021 | Big Data — 4 Vs
+022 | Sintaxe do Período
+023 | Estatuto Social EBSERH
+024 | Lei 8.080/1990
+025 | Padrões de Interoperabilidade em Saúde — Portaria 2.073/2011, XML e HL7
+026 | ITIL v3 — conceitos gerais
+027 | Processos PMBOK
+028 | Sistemas de Proteção de Redes — firewalls, WAF, IDS/IPS
+029 | COBIT 5
+030 | Criptografia e Protocolos — AES, RSA, hash e assinatura
+031 | Scrum
+032 | Pontuação
+033 | SOA — orquestração, coreografia, SOAP, WSDL e ESB
+034 | Concordância Verbal e Nominal
+035 | Contratações de TI na Administração Pública — IN SGD/MGI 94/2022, DFD, ETP e TR
+036 | Regimento Interno EBSERH
+037 | Certificação Digital ICP-Brasil
+038 | Decreto 7.508/2011
+039 | Gerenciamento de Escopo e Cronograma — EAP e CPM
+040 | LAI — Lei 12.527/2011
+041 | Protocolos de Redes — DNS, DHCP, SSH, HTTPS, SSL/TLS, IPsec e SNMP
+042 | Crase
+043 | Sistemas de Informação do SUS — DATASUS, CNES, CADSUS, SIPNI, SINAN, SIM e SINASC
+044 | REST/RESTful
+045 | Código de Ética e Conduta EBSERH
+046 | Programação Orientada a Objetos
+047 | EVM — Análise de Valor Agregado
+048 | APF — Pontos de Função
+049 | CRM
+050 | Lei 8.142/1990
+051 | MER — Modelo Entidade-Relacionamento
+052 | Arquitetura Cliente-Servidor e 3 camadas
+053 | Balanced Scorecard
+054 | Design Patterns GoF
+055 | Lei 13.303/2016 — Estatuto das Estatais
+056 | ISO/IEC 27002
+057 | Regência Verbal e Nominal
+058 | Gestão de Riscos de TI
+059 | Java
+060 | TISS/TUSS
+061 | Regulamento de Pessoal EBSERH
+062 | Ciclo de Vida de Software — cascata, espiral, incremental, iterativo e RUP
+063 | PETI/PDTIC
+064 | Resolução CNS 453/2012
+065 | Virtualização — hypervisors e Docker
+066 | Arquiteturas Web — Apache, IIS, WildFly/JBoss e Nginx
+067 | Gerenciamento de Riscos em Projetos
+068 | MPS.BR
+069 | SGBD — ACID e concorrência
+070 | DevOps — Git, Jenkins e CI/CD
+071 | Java EE — JSF, EJB, JPA, Hibernate, JAX-RS e JAX-WS
+072 | PHP
+073 | Microservices
+074 | Significação das Palavras
+075 | BPM — As-Is e To-Be
+076 | NoSQL e Teorema CAP
+077 | Norma Operacional de Controle Disciplinar EBSERH
+078 | Linux Debian
+079 | Gerenciamento de Aquisições
+080 | e-PING
+081 | RDC 36/2013 — Segurança do Paciente
+082 | Windows Server — Active Directory e GPO
+083 | Testes de Software e JUnit
+084 | Cloud Computing — IaaS, PaaS e SaaS
+085 | Plano de Negócio em TI
+086 | Gerenciamento de Requisitos e Rastreabilidade
+087 | Telemedicina — normas CFM e segurança
+088 | MVC
+089 | BI e OLAP
+090 | PNHOSP
+091 | SAN, NAS, Fibre Channel e iSCSI
+092 | PPA e TI
+093 | PCN/DRP — RTO e RPO
+094 | COCOMO e métricas
+095 | Marketing de Serviços em TI
+096 | Sistemas Distribuídos e Clusterização
+097 | Qualidade do Projeto — Pareto, Ishikawa e RACI
+098 | Redes Locais — switches, routers, VLAN e STP
+099 | Bancos Multidimensionais — MOLAP, ROLAP e HOLAP
+100 | CMS — Liferay, Drupal e WordPress

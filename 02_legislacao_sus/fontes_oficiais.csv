@@ -1,0 +1,5 @@
+assunto_id,assunto,fonte,tipo,url,status
+4,Constituição Federal - Saúde arts. 196 a 200,Presidência da República,constituicao,https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm,validado
+24,Lei 8.080/1990,Presidência da República,lei,https://www.planalto.gov.br/ccivil_03/leis/l8080.htm,validado
+50,Lei 8.142/1990,Presidência da República,lei,https://www.planalto.gov.br/ccivil_03/leis/l8142.htm,validado
+38,Decreto 7.508/2011,Presidência da República,decreto,https://www.planalto.gov.br/ccivil_03/_ato2011-2014/2011/decreto/d7508.htm,validado

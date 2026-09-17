@@ -1,0 +1,45 @@
+PERFIL DE BANCA — IBFC — CONCURSOS PÚBLICOS
+Versão: 2026-09-17
+Finalidade: orientar COMO formular questões no estilo IBFC em diferentes áreas. O conteúdo correto deve vir do RAG/documentos oficiais e bibliográficos recuperados.
+
+BASE DE REFERÊNCIA
+Perfil preparado considerando concursos e cadernos disponibilizados pelo portal oficial do IBFC, que reúne seleções de níveis e áreas diversos, incluindo saúde, administração, segurança, judiciário e funções técnicas.
+Referências institucionais: portal oficial IBFC e páginas de Provas e Gabaritos.
+
+PRINCÍPIOS
+- Adaptar a questão ao cargo, disciplina, assunto e nível informado.
+- Usar cinco alternativas A-E quando esse for o formato definido para a prova.
+- Exatamente uma alternativa correta.
+- Redação objetiva e tecnicamente precisa.
+- Distratores plausíveis, preferencialmente baseados em conceitos próximos, exceções, requisitos ou aplicações incorretas.
+- Não inventar leis, artigos, prazos, normas, protocolos ou dados técnicos.
+
+FORMULAÇÃO
+Variar entre cobrança conceitual direta e aplicação contextual, conforme a disciplina e os padrões encontrados nas provas reais recuperadas. Quando houver texto, norma, situação profissional ou caso, exigir compreensão suficiente para selecionar a alternativa correta. Não criar complexidade artificial.
+
+ADAPTAÇÃO MULTIDISCIPLINAR
+Português: interpretação, relações semânticas, gramática e reescrita conforme conteúdo programático.
+Direito/Legislação: regra, competência, requisito, exceção e aplicação normativa com fonte atualizada.
+Saúde: conceitos, protocolos, legislação e situações assistenciais somente quando sustentados pela fonte.
+Administração/Gestão: conceitos, processos, planejamento, gestão pública e situações organizacionais.
+TI: conceitos, arquitetura, segurança, dados, redes, desenvolvimento e governança conforme fontes.
+Contabilidade/Finanças: classificação, procedimentos, demonstrações, normas e cálculos consistentes.
+Raciocínio Lógico/Matemática: problema completo e solucionável, com distratores associados a erros plausíveis.
+Outras áreas: adaptar ao conteúdo real recuperado, sem transportar padrões técnicos de outra especialidade.
+
+DIFICULDADE
+Fácil: conceito central e distinção direta.
+Média: aplicação, interpretação ou comparação de conceitos próximos.
+Difícil: integração de conceitos, condições ou exceções presentes nas fontes.
+
+DIVERSIDADE
+Em lotes, variar aspecto cobrado, posição do gabarito, estrutura do enunciado e mecanismo dos distratores. Evitar questões parafraseadas e sequência previsível de respostas.
+
+FLUXO
+APP -> concurso/prova/área/disciplina/assunto/banca/dificuldade/quantidade -> RAG recupera conteúdo -> perfil IBFC define estilo -> AI Agent gera -> validação -> duplicidade -> Supabase.
+
+CONTROLE DE QUALIDADE
+Verificar uma única resposta correta, fundamento na fonte, adequação à área, ausência de ambiguidade, dificuldade solicitada, alternativas plausíveis e explicação compatível com o gabarito.
+
+REGRA DE OURO
+IBFC = estilo de cobrança; área/cargo = contexto; disciplina/assunto = objeto; RAG/documentos = fonte da verdade.

@@ -1,0 +1,46 @@
+PERFIL DE BANCA — CEBRASPE — CONCURSOS PÚBLICOS
+Versão: 2026-09-17
+Finalidade: orientar COMO formular itens no estilo Cebraspe em diferentes áreas. O formato deve obedecer ao concurso/prova selecionado, pois o Cebraspe utiliza diferentes modelos de avaliação.
+
+BASE DE REFERÊNCIA
+Perfil preparado a partir da documentação e concursos publicados pelo Cebraspe. IMPORTANTE: não assumir automaticamente formato CERTO/ERRADO. O aplicativo/prova cadastrada deve informar o formato efetivo do certame. Quando a prova for de julgamento, usar CERTO/ERRADO; quando houver múltipla escolha, respeitar o formato daquela prova.
+
+PRINCÍPIOS
+- Formulações precisas em que pequenas alterações conceituais possam determinar a correção do item.
+- Avaliar compreensão, aplicação, relações entre conceitos e consequências.
+- Não criar ambiguidade proposital.
+- Toda afirmação deve ser julgável a partir do conteúdo recuperado.
+- Não inventar exceções, normas, jurisprudência, números ou dados técnicos.
+
+FORMATO CERTO/ERRADO
+Quando a prova cadastrada usar julgamento de itens:
+- produzir uma proposição completa e objetivamente julgável;
+- gabarito apenas CERTO ou ERRADO;
+- itens errados devem conter erro material/conceitual identificável, e não mera redação confusa;
+- evitar duas proposições independentes na mesma sentença quando uma puder ser verdadeira e outra falsa, salvo se a relação entre elas for exatamente o objeto avaliado.
+
+MÚLTIPLA ESCOLHA
+Quando o edital/prova indicar alternativas, seguir exatamente a quantidade e estrutura registradas para a prova. Não converter automaticamente para CERTO/ERRADO.
+
+ADAPTAÇÃO MULTIDISCIPLINAR
+Direito: aplicação normativa, competências, condições, exceções e relações jurídicas com fonte atualizada.
+Português: compreensão, inferência, coesão, relações sintático-semânticas e reescrita quando suportadas pelo texto/conteúdo.
+TI: propriedades técnicas, arquitetura, segurança, dados, redes, desenvolvimento e governança.
+Saúde: conteúdo técnico e normativo recuperado; cenários somente com informação suficiente.
+Administração: conceitos, processos e aplicação organizacional.
+Contabilidade/Economia: regras, relações, classificações e cálculos fundamentados.
+Áreas técnicas: conceitos e normas recuperados da fonte.
+
+DIFICULDADE
+Fácil: uma propriedade central.
+Média: relação entre conceitos ou aplicação contextual.
+Difícil: integração de condições/conceitos, mantendo a proposição inequivocamente julgável.
+
+CONTROLE DE QUALIDADE
+Para CERTO/ERRADO, identificar explicitamente qual trecho da fonte torna o item verdadeiro ou qual elemento torna o item falso. Para múltipla escolha, garantir uma única resposta correta. Não confundir dificuldade com ambiguidade.
+
+FLUXO
+APP informa banca + formato da prova + área + disciplina + assunto -> RAG recupera conteúdo -> perfil Cebraspe define formulação -> AI Agent -> validação -> duplicidade -> Supabase.
+
+REGRA DE OURO
+O FORMATO DA PROVA CADASTRADA prevalece. Cebraspe não significa automaticamente CERTO/ERRADO.

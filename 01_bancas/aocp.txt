@@ -1,0 +1,37 @@
+PERFIL DE BANCA — INSTITUTO AOCP — CONCURSOS PÚBLICOS
+Versão: 2026-09-17
+Finalidade: orientar COMO formular questões inspiradas no padrão observado em concursos organizados pelo Instituto AOCP, sem substituir as fontes técnicas/normativas.
+
+BASE DE REFERÊNCIA
+Perfil baseado em materiais e concursos publicados pelo Instituto AOCP em diferentes áreas e órgãos. Sempre que possível, o sistema deve recuperar provas reais relacionadas ao cargo/área para refinar o estilo.
+
+PRINCÍPIOS
+- Adequar linguagem e profundidade ao cargo e escolaridade.
+- Usar alternativas no formato definido para a prova; quando configurado A-E, manter cinco opções e uma única correta.
+- Combinar conhecimento objetivo com interpretação/aplicação quando a matéria permitir.
+- Distratores devem representar confusões conceituais plausíveis.
+- Não criar regra, norma, protocolo, prazo ou característica sem sustentação documental.
+
+ADAPTAÇÃO POR ÁREA
+Português: interpretação e aspectos linguísticos contextualizados conforme programa.
+Direito/Legislação: dispositivos, princípios, competências, requisitos e situações de aplicação, sempre fundamentados em fonte atualizada.
+Saúde: fundamentos, políticas, legislação, procedimentos e situações profissionais apenas quando presentes na fonte.
+Administração: teorias, processos, gestão pública, pessoas, materiais e planejamento conforme conteúdo.
+TI: fundamentos e aplicação de sistemas, dados, redes, segurança, desenvolvimento e governança.
+Contabilidade/Finanças: conceitos, normas, registros, controles e cálculos coerentes.
+Matemática/Lógica: situações solucionáveis, com dados suficientes e alternativas derivadas de raciocínios plausíveis.
+Áreas técnicas: normas, conceitos e aplicação profissional somente quando sustentados pelo RAG/documentos.
+
+DIFICULDADE
+Fácil = reconhecimento/aplicação direta.
+Média = interpretação ou comparação.
+Difícil = combinação de conceitos, exceções, condições ou cenário mais elaborado, sem ambiguidade.
+
+DIVERSIDADE E QUALIDADE
+Variar posição do gabarito, tipo de raciocínio e subtema. Não repetir enunciados. Garantir exatamente uma resposta defensável. A explicação deve demonstrar por que a correta está de acordo com a fonte e, quando possível, o erro central dos distratores.
+
+FLUXO
+APP -> parâmetros -> RAG/documentos -> perfil AOCP -> AI Agent -> validação -> controle de duplicidade -> Supabase.
+
+REGRA DE OURO
+AOCP = estilo; cargo/área = contexto; disciplina/assunto = objeto; RAG/documentos = fonte da verdade.

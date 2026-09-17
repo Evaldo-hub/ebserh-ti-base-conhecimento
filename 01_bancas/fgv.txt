@@ -1,191 +1,206 @@
-PERFIL DE BANCA — FGV — TECNOLOGIA DA INFORMAÇÃO
+PERFIL DE BANCA — FGV — CONCURSOS PÚBLICOS
 Versão: 2026-09-17
-Finalidade: orientar o gerador de questões do projeto EBSERH-TI sobre COMO formular questões no estilo FGV. Este arquivo não substitui a fonte técnica do assunto. O conteúdo técnico deve vir prioritariamente do RAG/documentos de estudo.
+Finalidade: orientar o gerador de questões sobre COMO formular questões no estilo FGV em diferentes áreas e cargos. Este arquivo não substitui a fonte técnica, normativa ou bibliográfica da disciplina. O conteúdo correto deve vir prioritariamente do RAG/documentos de estudo.
 
 ==================================================
-1. BASE EMPÍRICA ANALISADA
+1. ESCOPO
 ==================================================
-Este perfil foi elaborado a partir de provas e páginas oficiais da FGV Conhecimento, com foco em Tecnologia da Informação, incluindo:
-- DATAPREV 2024 — Analista de Tecnologia da Informação, com perfis de Análise de Negócio de TI; Arquitetura, Engenharia e Sustentação Tecnológica; Desenvolvimento de Software; Inteligência da Informação; Segurança Cibernética e Proteção de Dados; Gestão de Serviços de TIC.
-- Secretaria do Tesouro Nacional 2024 — Tecnologia da Informação, perfis Operação e Infraestrutura e Transformação Digital.
-- Ministério Público do Estado do Rio de Janeiro 2025 — Analista do Ministério Público, área Tecnologia da Informação.
-- Tribunal de Contas do Estado de Roraima 2025 — Tecnologia da Informação, incluindo Banco de Dados, Desenvolvimento de Sistemas e Análise de Dados.
-- Controladoria Geral do Estado de São Paulo — prova de Tecnologia da Informação aplicada em dezembro de 2025, com gabarito definitivo em 2026.
-- CVM 2024 — perfil TI/Infraestrutura e Segurança, cujo edital distribuiu conhecimentos específicos entre Segurança da Informação, Computação em Nuvem, Infraestrutura de Servidores, Infraestrutura de Redes, Banco de Dados e Projetos/Governança de TI.
+Este perfil pode ser aplicado a diferentes áreas de concurso, conforme o conteúdo recuperado pelas fontes, incluindo:
+- Tecnologia da Informação;
+- Administração e Gestão Pública;
+- Direito e Legislação;
+- Língua Portuguesa;
+- Raciocínio Lógico e Matemática;
+- Contabilidade, Auditoria e Finanças;
+- Economia;
+- Saúde e áreas assistenciais;
+- Engenharia e áreas técnicas;
+- Gestão de Pessoas;
+- Arquivologia;
+- Administração de Materiais e Logística;
+- Conhecimentos institucionais e legislação específica;
+- outras disciplinas previstas no concurso/prova selecionado.
 
-Fontes oficiais de referência:
-- FGV Conhecimento — DATAPREV 2024: https://conhecimento.fgv.br/concursos/dataprev24
-- FGV Conhecimento — STN: https://conhecimento.fgv.br/concursos/stn
-- FGV Conhecimento — MPRJ 2025: https://conhecimento.fgv.br/concursos/mprj2025
-- FGV Conhecimento — TCERR: https://conhecimento.fgv.br/concursos/tcerr24
-- FGV Conhecimento — CGE-SP: https://conhecimento.fgv.br/concursos/cgesp2025
+O perfil da banca define COMO formular. O RAG/documento selecionado define O QUE pode ser cobrado e qual resposta é correta.
 
 ==================================================
-2. PRINCÍPIO DE GERAÇÃO
+2. BASE EMPÍRICA
 ==================================================
-A banca selecionada define COMO a questão será apresentada; o documento técnico/RAG define O QUE é correto sobre o assunto.
+O perfil considera padrões observáveis em concursos organizados pela FGV Conhecimento em diferentes órgãos, carreiras e especialidades. O sistema deve continuar usando provas reais e documentos oficiais específicos do concurso/área sempre que estiverem disponíveis no RAG ou GitHub.
 
-Ao gerar uma questão no estilo FGV:
-- não inventar fatos técnicos para imitar a banca;
-- preservar integralmente a correção conceitual do material recuperado;
-- utilizar cinco alternativas A, B, C, D e E;
+Referências institucionais utilizadas no desenvolvimento inicial do perfil incluem concursos FGV como DATAPREV, Secretaria do Tesouro Nacional, MPRJ, TCE-RR e CGE-SP, que possuem diferentes cargos, especialidades e disciplinas.
+
+==================================================
+3. PRINCÍPIO DE GERAÇÃO
+==================================================
+Ao gerar questão no estilo FGV:
+- preservar integralmente a correção conceitual da fonte recuperada;
+- utilizar cinco alternativas A, B, C, D e E quando o formato solicitado for múltipla escolha de cinco opções;
 - produzir exatamente uma alternativa correta;
-- tornar os distratores plausíveis e próximos do domínio conceitual da questão;
-- evitar alternativas absurdas ou facilmente descartáveis apenas pela redação.
+- criar distratores plausíveis dentro da disciplina;
+- evitar alternativas absurdas ou denunciadas pela redação;
+- adaptar linguagem, cenário e profundidade à área, cargo, disciplina, assunto e dificuldade informados pelo aplicativo;
+- não transferir artificialmente padrões de TI para Direito, Saúde, Português ou qualquer outra área.
 
 ==================================================
-3. ESTILO DO ENUNCIADO
+4. ESTILO DO ENUNCIADO
 ==================================================
-Preferir enunciados que exijam aplicação, interpretação ou distinção conceitual, e não somente reprodução literal de uma definição.
+Priorizar, quando compatível com a disciplina e a fonte:
+- interpretação;
+- aplicação de conceito;
+- distinção entre conceitos próximos;
+- análise de situação concreta;
+- identificação de consequência, finalidade, competência, propriedade ou procedimento;
+- compreensão contextual, em vez de mera reprodução literal.
 
-Estruturas úteis:
-- apresentar uma situação de trabalho, arquitetura, requisito, incidente, projeto ou decisão técnica e perguntar qual conceito/solução é compatível;
-- apresentar afirmações tecnicamente próximas e exigir identificação da correta;
-- confrontar conceitos semelhantes;
-- exigir análise de consequência, finalidade, propriedade, responsabilidade ou comportamento de uma tecnologia;
-- combinar conceito técnico com cenário de aplicação quando o material-fonte permitir.
-
-O contexto deve ser suficiente para resolver a questão. Não acrescentar detalhes irrelevantes apenas para aumentar o tamanho do enunciado.
+O enunciado deve fornecer informação suficiente para resolução e não deve criar dificuldade por ambiguidade artificial.
 
 ==================================================
-4. ESTILO DAS ALTERNATIVAS
+5. ALTERNATIVAS E DISTRATORES
 ==================================================
-As cinco alternativas devem ter aparência igualmente possível para quem possui domínio superficial do assunto.
+As alternativas devem parecer possíveis para candidato com conhecimento superficial.
 
-Boas estratégias de distratores:
-- trocar uma propriedade verdadeira por outra pertencente a conceito semelhante;
-- inverter relação entre componentes;
-- aplicar corretamente uma regra no contexto errado;
-- alterar condição, finalidade, camada, responsabilidade ou sequência;
-- utilizar terminologia real do domínio, porém associada incorretamente ao cenário.
+Distratores podem ser construídos por:
+- troca entre conceitos próximos;
+- inversão de condição ou consequência;
+- aplicação de regra correta em contexto inadequado;
+- alteração de competência, prazo, finalidade, característica ou requisito, quando sustentado pela matéria;
+- uso de terminologia real associada incorretamente ao cenário.
 
 Evitar:
 - alternativa obviamente absurda;
-- diferença de tamanho que revele a resposta;
-- palavras absolutas sem respaldo no conteúdo;
-- duas alternativas semanticamente equivalentes;
+- diferença de tamanho que revele o gabarito;
+- duas alternativas equivalentes;
 - mais de uma alternativa defensável;
-- pegadinha puramente gramatical que não avalie conhecimento do conteúdo.
+- absolutos como “sempre” e “nunca” sem respaldo da fonte;
+- informação não presente ou não sustentada pelo material técnico/normativo.
 
 ==================================================
-5. NÍVEL DE INTERPRETAÇÃO
+6. ADAPTAÇÃO POR ÁREA
 ==================================================
-Priorizar raciocínio sobre memorização isolada.
+TECNOLOGIA DA INFORMAÇÃO:
+Usar cenários de arquitetura, sistemas, redes, segurança, dados, desenvolvimento, governança e serviços quando compatíveis. Explorar comparação entre tecnologias, responsabilidades, propriedades e consequências técnicas.
 
-Nível Fácil:
-- conceito central claramente identificado;
-- apenas uma distinção principal;
-- distratores plausíveis, mas conceitualmente separáveis.
+DIREITO E LEGISLAÇÃO:
+Priorizar interpretação e aplicação da norma, competências, requisitos, exceções e consequências jurídicas presentes na fonte. Não inventar jurisprudência, prazos, artigos ou exceções. Se a questão depender de entendimento jurisprudencial, utilizar fonte atualizada recuperada pelo sistema.
 
-Nível Médio:
-- cenário aplicado ou comparação entre conceitos próximos;
-- necessidade de interpretar uma propriedade ou regra;
-- distratores baseados em erros conceituais frequentes.
+LÍNGUA PORTUGUESA:
+Quando houver texto-base, privilegiar compreensão, inferência, relações semânticas, coesão, estrutura, reescrita e efeitos de sentido conforme o material e o conteúdo programático. Questões gramaticais devem preservar o contexto quando isso for relevante.
 
-Nível Difícil:
-- integração de dois ou mais conceitos presentes nas fontes;
+ADMINISTRAÇÃO / GESTÃO PÚBLICA:
+Usar situações organizacionais, processos, planejamento, governança, gestão de pessoas, qualidade, estratégia e administração pública, conforme as fontes recuperadas. Distratores podem aproximar conceitos ou trocar finalidade e aplicação.
+
+SAÚDE:
+Utilizar somente conteúdo sustentado pelas fontes técnicas, protocolos, legislação ou bibliografia recuperada. Cenários clínicos ou assistenciais devem conter dados suficientes e não acrescentar condutas, doses, diagnósticos ou recomendações não fundamentadas no material. O perfil da banca não é fonte médica.
+
+CONTABILIDADE / AUDITORIA / FINANÇAS:
+Explorar classificação, reconhecimento, mensuração, procedimentos, demonstrações, controles e aplicação normativa quando presentes na fonte. Valores e cálculos devem ser internamente consistentes.
+
+RACIOCÍNIO LÓGICO / MATEMÁTICA:
+Construir problema solucionável com todos os dados necessários. Distratores devem preferencialmente corresponder a erros plausíveis de raciocínio ou cálculo. Não introduzir ambiguidade para elevar dificuldade.
+
+ENGENHARIA / ÁREAS TÉCNICAS:
+Usar aplicação de conceitos, normas, processos, especificações e situações profissionais apenas quando sustentadas pelo material recuperado.
+
+CONHECIMENTOS INSTITUCIONAIS / LEGISLAÇÃO ESPECÍFICA:
+Cobrar competências, estrutura, finalidade, princípios, regras e dispositivos efetivamente presentes nas fontes oficiais. Não inventar artigos ou atribuições.
+
+==================================================
+7. DIFICULDADE
+==================================================
+FÁCIL:
+- conceito central identificável;
+- uma distinção principal;
+- distratores plausíveis, porém separáveis por conhecimento básico.
+
+MÉDIA:
+- aplicação ou interpretação;
+- comparação entre conceitos próximos;
+- distratores baseados em erros frequentes.
+
+DIFÍCIL:
+- integração de conceitos sustentados pelas fontes;
 - cenário com restrições relevantes;
-- alternativas tecnicamente próximas;
-- resolução exige identificar precisamente condições, limites ou consequências.
+- alternativas próximas que exigem domínio preciso.
 
-A dificuldade nunca deve ser criada por ambiguidade, informação ausente ou conteúdo não fornecido pela fonte.
-
-==================================================
-6. PEGADINHAS ADEQUADAS
-==================================================
-Utilizar pegadinhas conceituais, não arbitrárias.
-
-Exemplos de mecanismos:
-- confundir autenticação com autorização;
-- confundir disponibilidade, integridade e confidencialidade;
-- trocar responsabilidades entre camadas de rede;
-- confundir normalização transacional com modelagem dimensional;
-- trocar característica de esquema estrela por floco de neve;
-- confundir prática, princípio, dimensão ou componente de ITIL quando a fonte tratar desses elementos;
-- trocar DDL, DML, DCL e TCL;
-- confundir escalabilidade vertical e horizontal;
-- atribuir a um modelo NoSQL característica típica de outro modelo;
-- trocar objetivo de governança por objetivo operacional de gestão.
-
-Usar esses exemplos somente quando compatíveis com o assunto e com os documentos recuperados.
+Nunca criar dificuldade por falta de informação, ambiguidade ou conteúdo externo não recuperado.
 
 ==================================================
-7. PADRÃO PARA QUESTÕES DE TI
+8. DIVERSIDADE DO LOTE
 ==================================================
-Para TI, variar entre:
-A) Conceitual aplicada — apresenta cenário e exige aplicação correta do conceito.
-B) Comparativa — diferencia tecnologias, modelos, padrões ou práticas próximas.
-C) Diagnóstico — apresenta comportamento/problema e pergunta qual explicação ou medida é adequada.
-D) Arquitetura — relaciona componentes, camadas, integrações ou responsabilidades.
-E) Governança/processos — apresenta objetivo, prática, processo ou decisão organizacional.
-F) Dados/SQL — exige interpretação de modelo, comando, restrição, normalização ou arquitetura de dados, quando suportado pelo material.
-G) Segurança — exige associação entre ameaça, controle, propriedade ou arquitetura, quando suportado pelo material.
-
-Não obrigar todos os formatos em um único lote. Escolher os formatos compatíveis com o assunto solicitado.
+Ao gerar várias questões:
+- variar o aspecto do assunto avaliado;
+- evitar paráfrases da mesma questão;
+- variar a posição do gabarito A-E;
+- evitar sequência previsível de respostas;
+- não reutilizar sistematicamente os mesmos distratores;
+- alternar formatos compatíveis com a disciplina: conceitual, interpretativo, aplicado, comparativo, diagnóstico, cálculo ou caso, conforme a matéria.
 
 ==================================================
-8. DIVERSIDADE DENTRO DO MESMO LOTE
-==================================================
-Ao gerar várias questões do mesmo assunto:
-- não repetir o mesmo enunciado com pequenas mudanças;
-- variar o aspecto conceitual avaliado;
-- variar a posição do gabarito entre A-E;
-- evitar padrões previsíveis de resposta;
-- não reutilizar os mesmos distratores;
-- quando o conteúdo permitir, alternar questão conceitual, aplicada, comparativa e de diagnóstico.
-
-==================================================
-9. USO COM RAG E MCP
+9. USO COM APP, RAG E MCP
 ==================================================
 Fluxo recomendado:
-1. Receber do aplicativo: concurso, prova, disciplina, assunto, banca, dificuldade e quantidade.
-2. Recuperar no RAG os trechos técnicos relevantes ao assunto.
-3. Se banca = FGV, usar este arquivo como perfil de formulação.
-4. Se o RAG não contiver o documento necessário, o MCP pode acessar diretamente o arquivo correspondente no GitHub.
-5. Gerar a questão combinando conteúdo técnico recuperado + perfil FGV.
-6. Registrar em fontes somente documentos efetivamente utilizados como fundamento técnico da questão. Este arquivo de perfil de banca pode ser registrado separadamente como metadado de estilo, se o modelo de dados futuramente suportar esse campo.
-
-IMPORTANTE: não usar este arquivo como fonte de verdade para responder questões técnicas. Ele orienta estilo, estrutura e dificuldade.
+1. O aplicativo envia concurso, prova, disciplina, assunto, banca, dificuldade e quantidade.
+2. O n8n usa concurso/prova/área/assunto para recuperar o conteúdo apropriado no RAG.
+3. Se banca = FGV, este arquivo fornece o perfil de formulação.
+4. O MCP pode recuperar diretamente documentos complementares e provas reais armazenadas no GitHub quando necessário.
+5. O AI Agent combina conteúdo recuperado + perfil da banca.
+6. O gabarito e a explicação são fundamentados na fonte técnica/normativa, e não neste arquivo de estilo.
+7. A questão passa pela verificação de estrutura e duplicidade antes da gravação no Supabase.
 
 ==================================================
 10. REGRAS PARA O GERADOR
 ==================================================
 Quando banca = FGV:
-- manter cinco alternativas;
-- uma única correta;
-- privilegiar interpretação e aplicação quando houver material suficiente;
-- criar distratores tecnicamente plausíveis;
-- usar terminologia do próprio conteúdo recuperado;
-- evitar pistas formais da resposta correta;
-- não criar complexidade artificial;
-- não inventar normas, versões, comandos, números ou características;
-- fundamentar gabarito e explicação no conteúdo recuperado pelo RAG/documento;
-- respeitar exatamente disciplina, assunto, dificuldade e quantidade enviados pelo aplicativo.
+- respeitar concurso, prova, disciplina, assunto, dificuldade e quantidade enviados pelo aplicativo;
+- adaptar o tipo de raciocínio à disciplina;
+- não aplicar exemplos de uma área a outra sem justificativa;
+- privilegiar interpretação/aplicação quando compatível com o conteúdo;
+- produzir distratores plausíveis;
+- evitar pistas formais do gabarito;
+- não inventar leis, normas, artigos, versões, números, comandos, protocolos ou características;
+- fundamentar resposta e explicação nas fontes recuperadas;
+- informar as fontes técnicas efetivamente utilizadas quando o formato do sistema exigir.
 
 ==================================================
-11. TEMPLATE INTERNO DE CONSTRUÇÃO
+11. TEMPLATE INTERNO
 ==================================================
 Antes de produzir cada questão, determinar internamente:
-- conceito principal avaliado;
-- trecho/fonte técnica que sustenta o gabarito;
-- habilidade: reconhecer / interpretar / aplicar / comparar / diagnosticar;
+- área/cargo;
+- disciplina;
+- assunto e subassunto;
+- conceito/regra principal;
+- fonte que sustenta o gabarito;
+- habilidade exigida: reconhecer, interpretar, aplicar, comparar, calcular ou diagnosticar;
 - erro conceitual de cada distrator;
-- nível de dificuldade solicitado.
+- dificuldade solicitada.
 
-Somente depois redigir enunciado e alternativas.
+Somente então redigir enunciado e alternativas.
 
 ==================================================
 12. CONTROLE DE QUALIDADE
 ==================================================
 Antes de devolver a questão, verificar:
+- está dentro da disciplina e assunto solicitados?
+- está adequada à área/cargo?
 - há exatamente uma resposta correta?
-- a resposta está sustentada pela fonte técnica recuperada?
-- algum distrator também poderia ser considerado correto?
+- a resposta é sustentada pela fonte recuperada?
+- algum distrator também pode ser considerado correto?
 - o enunciado contém informação suficiente?
 - a dificuldade corresponde ao solicitado?
-- a questão avalia o assunto solicitado?
-- o estilo está coerente com o perfil FGV sem sacrificar precisão técnica?
-- as cinco alternativas são gramaticalmente compatíveis com o enunciado?
-- o gabarito e a explicação não contradizem a fonte?
+- o estilo é coerente com a FGV sem sacrificar precisão?
+- as alternativas são gramatical e logicamente compatíveis com o enunciado?
+- explicação e gabarito não contradizem a fonte?
 
-Se qualquer resposta for negativa, revisar a questão antes de retorná-la.
+Se qualquer verificação falhar, revisar antes de retornar.
+
+==================================================
+13. REGRA DE OURO
+==================================================
+BANCA = estilo de cobrança.
+ÁREA/CARGO = contexto profissional e profundidade esperada.
+DISCIPLINA/ASSUNTO = objeto da questão.
+RAG/DOCUMENTOS = fonte da verdade.
+MCP/GITHUB = acesso complementar a documentos, provas e perfis.
+AI AGENT = composição da questão.
+SUPABASE = persistência e controle de duplicidade.

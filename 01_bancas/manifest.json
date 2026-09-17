@@ -1,0 +1,46 @@
+{
+  "versao": "1.0",
+  "atualizado_em": "2026-09-17",
+  "finalidade": "Mapear o nome da banca recebido pelo aplicativo para o arquivo de perfil utilizado pelo MCP/AI Agent.",
+  "pasta_base": "01_bancas",
+  "fallback": {
+    "arquivo": null,
+    "acao": "usar_regras_gerais",
+    "mensagem": "Banca sem perfil específico cadastrado. Usar apenas as regras gerais do System Prompt e as fontes técnicas recuperadas pelo RAG."
+  },
+  "bancas": {
+    "FGV": {
+      "nome_oficial": "Fundação Getulio Vargas",
+      "arquivo": "01_bancas/fgv.txt",
+      "aliases": ["FGV", "Fundação Getulio Vargas", "Fundacao Getulio Vargas"],
+      "ativo": true
+    },
+    "IBFC": {
+      "nome_oficial": "Instituto Brasileiro de Formação e Capacitação",
+      "arquivo": "01_bancas/ibfc.txt",
+      "aliases": ["IBFC", "Instituto Brasileiro de Formação e Capacitação", "Instituto Brasileiro de Formacao e Capacitacao"],
+      "ativo": true
+    },
+    "AOCP": {
+      "nome_oficial": "Instituto AOCP",
+      "arquivo": "01_bancas/aocp.txt",
+      "aliases": ["AOCP", "Instituto AOCP"],
+      "ativo": true
+    },
+    "CEBRASPE": {
+      "nome_oficial": "Centro Brasileiro de Pesquisa em Avaliação e Seleção e de Promoção de Eventos",
+      "arquivo": "01_bancas/cebraspe.txt",
+      "aliases": ["CEBRASPE", "Cebraspe", "CESPE", "CESPE/UnB", "Cespe"],
+      "ativo": true,
+      "observacao": "Não presumir formato Certo/Errado. O formato cadastrado para a prova no aplicativo prevalece."
+    }
+  },
+  "regras_roteamento": [
+    "Normalizar o nome recebido removendo espaços extras e ignorando diferenças entre maiúsculas e minúsculas.",
+    "Comparar primeiro com a chave da banca e depois com aliases.",
+    "Carregar somente arquivo com ativo=true.",
+    "O perfil da banca define estilo de cobrança e nunca substitui a fonte técnica/normativa.",
+    "Se nenhuma banca corresponder, aplicar fallback e não inventar perfil.",
+    "O formato da prova cadastrado no aplicativo prevalece sobre qualquer padrão histórico da banca."
+  ]
+}
